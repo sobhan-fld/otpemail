@@ -6,7 +6,7 @@ url = "http://127.0.0.1:5000/auth/emailotp"
 # Data to be sent in the request
 data = {
     'receivers_mail': 'sobhan.fld2@gmail.com',
-    'context': 'sobhann'
+    'context': 'salam2345678'
 }
 
 # Sending a POST request to the Flask server
