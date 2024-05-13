@@ -2,7 +2,6 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import email.utils
-import uuid
 
 
 def send_email(subject, message, sender_email, sender_password, receiver_email):
@@ -39,9 +38,9 @@ def send_email(subject, message, sender_email, sender_password, receiver_email):
 
 
 def send_email_complete(receivers_mail, context):
-    subject = "Test Email"
+    subject = "No-reply"
     sender_password = "Asd.1234567890"
-    sender_email = "sobhan@maxsens.es"
+    sender_email = "verify@maxsens.es"
 
     send_email(subject, context, sender_email, sender_password, receivers_mail)
 
