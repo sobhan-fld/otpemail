@@ -39,8 +39,8 @@ def send_email(subject, message, sender_email, sender_password, receiver_email):
 
 def send_email_complete(receivers_mail, context):
     subject = "No-reply"
-    sender_password = "Asd.1234567890"
-    sender_email = "verify@maxsens.es"
+    sender_password = ""
+    sender_email = ""
 
     send_email(subject, context, sender_email, sender_password, receivers_mail)
 
